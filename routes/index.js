@@ -13,4 +13,8 @@ router.get('/contact-me', (req, res, next) => {
   res.render('index', { page: 'Contact Me' });
 });
 
+router.get('/test', (req, res, next) => {
+  res.render('test', { page2: 'Test 2' });
+});
+
 module.exports = router;
